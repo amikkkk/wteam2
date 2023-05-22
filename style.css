@@ -1,0 +1,39 @@
+.navbar{
+    margin-left: 300px;
+    margin-top: -68px;
+    font-size: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.black{
+    color: aliceblue;
+}
+body{
+    font-family: 'Jost', sans-serif;
+}
+.news{
+    margin-top: 15px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+header{
+    width: 896px;
+}
+.m2{
+    margin-left: 100px;
+}
+@media all and (max-width:800px){
+    header {
+        width: 800px
+    }
+    .navbar {
+        flex-direction: column;
+        margin-left: -60px;
+    }
+    img{
+        max-width: 100%;
+    }
+}
